@@ -21,7 +21,7 @@ package MovieTheater;
 public class Main {
     public static void main(String[] args) {
 
-        /*******************************   Manager Stuff   ************************************************************/
+        System.out.println("*******************************   Manager Stuff   ************************************************************");
 
         // managers of Movie Theater
         Manager manager1 = new Manager(1,"Iroh", 55, 100_000, true);
@@ -75,7 +75,7 @@ public class Main {
         System.out.println(manager2.listAllStaffMembers());
 
 
-        /*******************************   Staff Member Stuff   ************************************************************/
+        System.out.println("*******************************   Staff Member Stuff   ************************************************************");
 
         // Aang makes popcorn!
         member1.makePopcorn();
@@ -109,7 +109,7 @@ public class Main {
         System.out.println(allMovies);
 
 
-        /*******************************   Consumer Stuff   ************************************************************/
+        System.out.println("*******************************   Consumer Stuff   ************************************************************");
 
         Consumer consumer1 = new Consumer(1, "Cabbage Man", 60);
 
@@ -118,7 +118,6 @@ public class Main {
         String moviesToWatch = consumer1.listAllMovies();
         System.out.println(moviesToWatch);
 
-        System.out.println();
         consumer1.watchMovie(1);
 
     }
