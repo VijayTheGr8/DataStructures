@@ -19,6 +19,12 @@ package MovieTheater;
  */
 
 public class Main {
+
+    /**
+     * This main method tests out all three classes' (Manager, StaffMember and Consumer) methods
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         System.out.println("*******************************   Manager Stuff   ************************************************************");
